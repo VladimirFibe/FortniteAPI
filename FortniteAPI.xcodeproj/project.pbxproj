@@ -13,6 +13,7 @@
 		D99A3C832C2FACF700986E7C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D99A3C822C2FACF700986E7C /* Base */; };
 		D99A3C852C2FACF800986E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99A3C842C2FACF800986E7C /* Assets.xcassets */; };
 		D99A3C882C2FACF800986E7C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D99A3C872C2FACF800986E7C /* Base */; };
+		D99A3C922C2FB0AA00986E7C /* FortniteCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99A3C912C2FB0AA00986E7C /* FortniteCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D99A3C842C2FACF800986E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99A3C872C2FACF800986E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99A3C892C2FACF800986E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99A3C912C2FB0AA00986E7C /* FortniteCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		D99A3C7A2C2FACF700986E7C /* FortniteAPI */ = {
 			isa = PBXGroup;
 			children = (
+				D99A3C902C2FADC200986E7C /* Supporting Files */,
+				D99A3C8F2C2FADA800986E7C /* App */,
+				D99A3C7F2C2FACF700986E7C /* ViewController.swift */,
+				D99A3C912C2FB0AA00986E7C /* FortniteCVCell.swift */,
+			);
+			path = FortniteAPI;
+			sourceTree = "<group>";
+		};
+		D99A3C8F2C2FADA800986E7C /* App */ = {
+			isa = PBXGroup;
+			children = (
 				D99A3C7B2C2FACF700986E7C /* AppDelegate.swift */,
 				D99A3C7D2C2FACF700986E7C /* SceneDelegate.swift */,
-				D99A3C7F2C2FACF700986E7C /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D99A3C902C2FADC200986E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				D99A3C812C2FACF700986E7C /* Main.storyboard */,
 				D99A3C842C2FACF800986E7C /* Assets.xcassets */,
 				D99A3C862C2FACF800986E7C /* LaunchScreen.storyboard */,
 				D99A3C892C2FACF800986E7C /* Info.plist */,
 			);
-			path = FortniteAPI;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 				D99A3C802C2FACF700986E7C /* ViewController.swift in Sources */,
 				D99A3C7C2C2FACF700986E7C /* AppDelegate.swift in Sources */,
 				D99A3C7E2C2FACF700986E7C /* SceneDelegate.swift in Sources */,
+				D99A3C922C2FB0AA00986E7C /* FortniteCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
